@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acceuil</title>
+    <link rel="stylesheet" href="Style.css" >
+</head>
+<body>
+    <!--Navigation-->
+    <nav>
+        <ul>
+            <li><a href="#home" class="nav item">Home</a></li>
+            <li><a href="#equipement" class="nav item">Equipement</a></li>
+            <li><a href="#info" class="nav item">Training</a></li>
+            <li><a href="#contact" class="nav item">Contact</a></li>
+        </ul>
+
+    </nav>
+
+    <!-- HOME -->
+    <div id="home" class="hero">
+        <div class="home-left">
+            <h1>Rugby World</h1>
+            <p>Learn From the best</p>
+            <p>Get the most from your training. </p>
+            <p>Every Single Day!
+            <div class="btn-hero">
+                <a href="#" class="btn-home b1">Equipement</a>
+                <a href="#" class="btn-home b2">Contact</a>
+            </div>
+            </p>
+        </div>
+        <div class="home-right"></div>
+
+    </div>
+
+    <!--Training-->
+    <h2 class="training-info">Training</h2>
+    <section class="training-section" id="info">
+        <div class="training-card">
+            <div class="containner-training-photo">
+                <img src="img/rugby2.jpg" alt="">
+            </div>
+            <h2>Shooting Training</h2>
+            <p></p>
+        </div>
+
+        <div class="training-card">
+            <div class="containner-training-photo">
+                <img src="img/rugby3.jpg" alt="">
+            </div>
+            <h2>Speed Training</h2>
+            <p></p>
+        </div>
+
+        <div class="training-card">
+            <div class="containner-training-photo">
+                <img src="img/rugby4.jpg" alt="">
+            </div>
+            <h2>Strength Training</h2>
+            <p></p>
+        </div>
+    </section>
+
+    <!--Choice-->
+    <selection id="choice">
+        <div class="training-choice">
+            <h3>Group exercice</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque esse nisi quae aliquid est quis ipsam similique error deleniti quasi harum dolores corrupti totam rerum at, id, ipsa quod vitae!</p>
+            <button class="btn-outline-choice">Become a Member</button>
+        </div>
+        <div class="training-choice">
+            <h3>Special Training</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque esse nisi quae aliquid est quis ipsam similique error deleniti quasi harum dolores corrupti totam rerum at, id, ipsa quod vitae!</p>
+            <button class="btn-outline-choice">Become a Member</button>
+        </div>
+    </selection>
+
+    <!--Equipement-->
+    <h2 class="title-equipement">Equipements</h2>
+    <section id="equipement">
+        <button type="button" data-index="1" class="btn-mdl"></button>
+        <button type="button" data-index="2" class="btn-mdl"></button>
+        <button type="button" data-index="3" class="btn-mdl"></button>
+        <button type="button" data-index="4" class="btn-mdl"></button>
+        <button type="button" data-index="5" class="btn-mdl"></button>
+        <button type="button" data-index="6" class="btn-mdl"></button>
+        <button type="button" data-index="7" class="btn-mdl"></button>
+        <button type="button" data-index="8" class="btn-mdl"></button>
+
+    </section>
+    <div class="bloc-modal">
+        <div class="bloc-img">
+            <img src="img/eqp-1.jpg" alt="">
+            <button class="close">X</button>
+        </div>
+    </div>
+
+    
+
+    <!--Parallax-->
+    <section class="parallax">
+        <p class="parallax-txt">No Pain No Gain!</p>
+        
+    </section>
+
+    <!--Contact-->
+    <h2 class="contact-title">Contact</h2>
+    <section id="contact">
+        <form>
+            <label for="prenom">Prénom</label>
+            <input type="text" id="prenom">
+
+            <label for="nom">Nom</label>
+            <input type="text" id="nom">
+
+            <label for="message">Message</label>
+            <textarea id="message"></textarea>
+
+            <button class="contact-btn" type="submit">Suivant</button>
+        </form>
+
+    </section>
+
+    <!--Footer-->
+    <footer>
+        <p>All Right Reserved - 2021</p>
+    </footer>
+    
+    <script src="app.js"></script>
+
+</body>
+</html>

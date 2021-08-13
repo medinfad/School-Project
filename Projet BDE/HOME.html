@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  
+     <title>Home</title>
+	 <link rel="stylesheet" href="style.css">
+	 <script src="store.js"></script>
+	 <meta charset="UTF-8">
+	 <link href="https://fonts.googleapis.com/css?family=Roboto/Varela+Round"  rel="stylesheet">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     <link rel="stylesheet" href="style.css">
+  </head>
+
+ <body >
+
+	<div class="container">
+	    <header>
+	     <img src="LOGO.png" width="100" alt="image de logo du BDE de l'estia"/>
+	     <div class="log">
+           <a href="#myModal" class="trigger-btn btn-lg text-bold "  data-toggle="modal">Log-In</a>
+         </div>
+         <div id="myModal" class="modal fade">
+          <div class="modal-dialog modal-login">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h6 class="modal-title" >Login</h6>
+                    <button type="button" class="close" data-dismiss="modal"  aria-hidden="true">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form action="index.php" method="POST">
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="username" placeholder="Username">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control"  name="password" placeholder="Password" >
+                        </div>
+                        <div class="form-group">
+						<button class="btn btn-outline-success btn-lg btn-block login-btn">Login</button>
+                        </div> 
+                    
+					</form>
+                </div>
+                <div class="modal-footer">
+                    <a href="#">Forgot Password?</a>
+                </div>
+            </div>
+           </div>
+          </div>
+		  <div class="img">  
+		    <img  src="Logoestia.png" width="200" alt="l'image du logo de l'ecole de l'ESTIA"/>
+	      </div>
+		  <a href="https://fr.wikipedia.org/wiki/%C3%89cole_sup%C3%A9rieure_des_technologies_industrielles_avanc%C3%A9es">Learn more</a>
+	    </header>
+	
+	    <nav>
+          <a href="HOME.html" >HOME</a>  
+		  <a href="PRODUIT.html">PRODUITS</a>  
+		  <a href="PANIER.html">Panier</a>   
+        </nav>
+	
+        
+	   <main>
+         <video  poster="playme.jpg"  width="320" height="240" controls src="video.mp4" ></video>
+	     <div class="slidershow middle">
+
+           <div class="slides">
+            <input type="radio" name="r" id="r1" checked>
+            <input type="radio" name="r" id="r2">
+            <input type="radio" name="r" id="r3">
+            <input type="radio" name="r" id="r4">
+            <input type="radio" name="r" id="r5">
+            <div class="slide s1">
+              <img src="slide1.jpg" alt="">
+            </div>
+            <div class="slide">
+              <img src="slide2.jpg" alt="">
+            </div>
+            <div class="slide">
+              <img src="slide3.jpg" alt="">
+            </div>
+            <div class="slide">
+              <img src="slide4.jpg" alt="">
+            </div>
+          </div>
+
+           <div class="navigation">
+             <label for="r1" class="bar"></label>
+            <label for="r2" class="bar"></label>
+            <label for="r3" class="bar"></label>
+            <label for="r4" class="bar"></label>
+            <label for="r5" class="bar"></label>
+           </div>
+       </div>
+	   
+	   </main>
+	  
+	   <footer> 
+	      <p> Technopole Izarbel, 64210 Bidart - Copyright 2020 © </p>
+	   </footer>
+	
+	 
+    </div>
+  </body>
+</html>
